@@ -41,7 +41,7 @@ function generateGroups() {
 
     for (var i = 0; i < groups.length; i++) {
       var groupDiv = document.createElement('div');
-      groupDiv.classList.add('alert', 'alert-primary');
+      groupDiv.classList.add('alert', 'alert-warning', 'my-3');
       groupDiv.innerHTML = '<h4>Grupo ' + (i + 1) + '</h4><ul>';
 
       for (var j = 0; j < groups[i].length; j++) {
